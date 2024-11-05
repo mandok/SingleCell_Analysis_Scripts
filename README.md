@@ -5,7 +5,7 @@ This repository contains R/Python scripts for the analysis of scRNAseq and spati
 
 ## scRNA-seq analysis
 Inside the scRNAseq folder, the scripts covering the following analysis steps:
-1. **Quality control** (removal of low quality cells based on mitochondrial percentage reads, removal of doublets)
+1. **Quality control** (removal of low quality cells based on mitochondrial percentage reads, removal of doublets [DoubletFinder](https://github.com/chris-mcginnis-ucsf/DoubletFinder)
 2. **Normalization**+integration+clustering + celltype marker
 3. **Differential abundance** with MiloR
 4. **Postclustering analysis**: Differential gene expression (for celltype marker), gene set enrichment, differential gene expression between 2 conditions, gene set enrichment.
