@@ -16,10 +16,10 @@ Inside the scRNAseq folder, the scripts covering the following analysis steps us
 9. **Gene regulatory Networks**: [pySCENIC](https://pyscenic.readthedocs.io/en/latest/tutorial.html)
 
 
-# Spatial Transcriptomics analysis
+## Spatial Transcriptomics analysis
 Inside the spatial_transcriptomics folder, the scripts cover the following analysis steps using [scanpy](https://scanpy.readthedocs.io/en/stable/):
 - Visium (spot resolution)
 - Xenium (single-cell resolution)
 - RESOLVE Biosciences (single-cell resolution)
 
-  ## References
+## References
