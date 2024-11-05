@@ -4,7 +4,7 @@ This repository contains R/Python scripts for the analysis of scRNAseq and spati
 
 
 ## scRNA-seq analysis
-Inside the scRNAseq folder, there are scripts covering the following analysis steps:
+Inside the scRNAseq folder, the scripts covering the following analysis steps:
 1. **Quality control** (removal of low quality cells based on mitochondrial percentage reads, removal of doublets)
 2. **Normalization**+integration+clustering + celltype marker
 3. **Differential abundance** with MiloR
@@ -12,3 +12,10 @@ Inside the scRNAseq folder, there are scripts covering the following analysis st
 5. **Cell-cell interaction**: MultinicheNet
 6. **Trajectory inference**: Pseudotime with palantir, RNA velocity, CellRank
 7. **Gene regulatory Networks**: SCENIC
+
+
+# Spatial Transcriptomics analysis
+Inside the spatial_transcriptomics folder, the scripts cover the following analysis steps:
+- Visium (spot resolution)
+- Xenium (single-cell resolution)
+- RESOLVE Biosciences (single-cell resolution)
